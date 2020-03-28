@@ -2,6 +2,7 @@
 > qt5.14.1 on linux(ubuntu 18.x/Redhat 8)<br>
 > MSQL on windows 10<br>
 
+
 ## reference 
 -  https://weekly-geekly.github.io/articles/333468/index.html
 -  https://www.twblogs.net/a/5b8659bd2b71775d1cd50641
