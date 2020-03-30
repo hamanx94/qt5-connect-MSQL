@@ -54,11 +54,11 @@ Driver=/usr/local/freetds/lib/libtdsodbc.so
     strcpy(database, "xxxx");
     strcpy(account, "xxxx");
     strcpy(pwd, "xxxx");
-    dsn.sprintf("DRIVER={FreeTDS};SERVER=%s,1433;DATABASE=%s;UID=%s;PWD=%s;", 
-                 qsIP.toUtf8().data(), 
-                 database, 
-                 account, 
-                 pwd);
+    dsn = QString::asprintf("DRIVER={FreeTDS};SERVER=%s,1433;DATABASE=%s;UID=%s;PWD=%s;", 
+                             qsIP.toUtf8().data(), 
+                             database, 
+                             account, 
+                             pwd);
     db.setDatabaseName(dsn);
     if(db.open())
     {
