@@ -25,7 +25,7 @@ http://www.unixodbc.org/<br>
 
 # Install freetds
 
-> freetds-1.1.24
+> freetds-1.1.24 or 1.1.26
 
 https://www.freetds.org/<br>
 
