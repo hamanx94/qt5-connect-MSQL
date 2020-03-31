@@ -4,7 +4,7 @@
 
 http://www.unixodbc.org/<br>
 
-+ ./configure --prefix=/usr/local/unixODBC --sysconfdir=/usr/local/etc
++ ./configure --prefix=/usr/local/unixODBC --sysconfdir=/usr/local/unixODBC/etc
 + make
 + sudo make install
 
