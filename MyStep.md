@@ -29,7 +29,7 @@ http://www.unixodbc.org/<br>
 
 https://www.freetds.org/<br>
 
-+ ./configure --enable-msdblib --prefix=/usr/local/freetds --with-tdsver=7.1 --disable-libiconv --with-unixodbc=/usr/local
++ ./configure --enable-msdblib --prefix=/usr/local/freetds --with-tdsver=7.1 --disable-libiconv --with-unixodbc=/usr/local/unixODBC
 + make
 + sudo make install
 
