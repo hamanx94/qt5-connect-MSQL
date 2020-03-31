@@ -35,13 +35,15 @@ https://www.freetds.org/<br>
 
 # Edit odbcinst.ini
 
-+ /usr/local/unixODBC/etc/odbcinst.ini
++ sudo vim /usr/local/unixODBC/etc/odbcinst.ini
 
 ```ini
 [FreeTDS]
 Description=FreeTDS Driver
 Driver=/usr/local/freetds/lib/libtdsodbc.so
 ```
+
++ sudo cp /usr/local/unixODBC/etc/odbcinst.ini /etc/
 
 # sample
 
