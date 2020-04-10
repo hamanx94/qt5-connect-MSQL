@@ -1,5 +1,5 @@
 # qt5-connect-MSQL
-> qt5.14.1 on linux(ubuntu 18.x/Redhat 8)<br>
+> qt5.14.1 on linux(ubuntu 16.x/Redhat 8)<br>
 > MSQL on windows 10<br>
 
 
